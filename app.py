@@ -11,12 +11,12 @@ import re
 import json
 
 st.set_page_config(
-    page_title="ICICI Data Analytics Lab",
+    page_title="Data Analytics Lab",
     page_icon="💻",
     layout="wide"
 )
 
-st.title("💻 ICICI Data Analytics Lab")
+st.title("💻 Data Analytics Lab")
 st.caption("Browser-Based Python & SQL Practice Environment")
 
 

@@ -1,0 +1,23 @@
+import streamlit as st
+import pandas as pd
+import duckdb
+
+st.set_page_config(
+    page_title="AI DataLab",
+    page_icon="💻",
+    layout="wide"
+)
+
+st.title("💻 AI DataLab")
+st.subheader("Python & SQL Practice Lab")
+
+st.sidebar.title("Labs")
+
+lab = st.sidebar.radio(
+    "Select Lab",
+    [
+        "Home",
+        "Python Lab",
+        "SQL Lab"
+    ]
+)

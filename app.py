@@ -308,7 +308,7 @@ page = st.sidebar.radio(
 
 if page == "Home":
 
-    st.header("Welcome to ICICI Data Analytics Lab")
+    st.header("Welcome to Data Analytics Lab")
 
     st.markdown("""
 ### Browser-Based Hands-On Environment
@@ -349,9 +349,9 @@ No API key is required.
 # 1. PYTHON CODING
 # ============================================================
 
-elif page == "🏆 Gamification":
+elif page == "🏆 Learning Progress":
 
-    st.header("🏆 Gamification")
+    st.header("🏆 Learning Progress")
 
     name = st.text_input(
         "Participant Name",

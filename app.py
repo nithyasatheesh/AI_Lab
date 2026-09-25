@@ -3,6 +3,7 @@ import pandas as pd
 import sqlite3
 import io
 import contextlib
+import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="AI DataLab", page_icon="💻", layout="wide")
 

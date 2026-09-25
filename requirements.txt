@@ -1,0 +1,5 @@
+streamlit
+pandas
+numpy
+matplotlib
+streamlit-code-editor>=0.1.20

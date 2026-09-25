@@ -294,7 +294,7 @@ page = st.sidebar.radio(
     "Select Lab",
     [
         "Home",
-        "🏆 Gamification",
+        "🏆 Learning Progress",
         "1. Python Coding",
         "2. Python Data Manipulation",
         "3. SQL Lab"

@@ -83,6 +83,7 @@ def make_env(dataframes=None):
         "repr": repr,
         "id": id,
         "hash": hash,
+        "input": input,
 
         "__import__": safe_import
     }
